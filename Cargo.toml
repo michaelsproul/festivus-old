@@ -1,0 +1,37 @@
+[package]
+
+name = "festivus"
+version = "0.0.0"
+authors = ["Michael Sproul <micsproul@gmail.com>"]
+
+[[bin]]
+
+name = "festivus"
+
+[dependencies.iron]
+
+git = "https://github.com/iron/iron.git"
+
+[dependencies.urlencoded]
+
+git = "https://github.com/iron/urlencoded.git"
+
+[dependencies.logger]
+
+git = "https://github.com/iron/logger.git"
+
+[dependencies.router]
+
+git = "https://github.com/iron/router.git"
+
+[dependencies.bodyparser]
+
+git = "https://github.com/iron/body-parser.git"
+
+[dependencies.rust-postgres]
+
+git = "https://github.com/sfackler/rust-postgres.git"
+
+[dependencies.http]
+
+git = "https://github.com/chris-morgan/rust-http.git"
